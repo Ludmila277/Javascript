@@ -1,6 +1,6 @@
 const first = prompt("Введите слово для проверки");
-let str = "civic";
-let strReverse = str.split("").reverse().join("");
+const str = "civic";
+const strReverse = str.split("").reverse().join("");
 if (str === strReverse) {
   alert(`Слово ${first} является палиндромом`);
 } else {
